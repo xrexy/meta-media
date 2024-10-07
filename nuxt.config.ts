@@ -16,6 +16,10 @@ export default defineNuxtConfig({
     "shadcn-nuxt",
   ],
 
+  tailwindcss: {
+    viewer: process.argv.includes("--tailwindcss"),
+  },
+
   shadcn: {
     prefix: "",
     componentDir: "./components/ui",
