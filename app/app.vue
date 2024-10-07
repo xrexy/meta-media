@@ -1,5 +1,5 @@
 <template>
-  <div>
-    <NuxtWelcome />
+  <div class="h-screen bg-red-900">
+    hi
   </div>
 </template>
