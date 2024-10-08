@@ -16,6 +16,20 @@ export default defineNuxtConfig({
     "shadcn-nuxt",
   ],
 
+  app: {
+    head: {
+      htmlAttrs: {
+        class: "dark",
+        lang: "en-US",
+      },
+    },
+  },
+
+  appConfig: {
+    mediaDir:
+      import.meta.env.MEDIA_DIR ?? process.env.MEDIA_DIR ?? "./public/.media",
+  },
+
   tailwindcss: {
     viewer: process.argv.includes("--tailwindcss"),
   },

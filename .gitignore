@@ -1,3 +1,6 @@
+# Local
+.media
+
 # Nuxt dev/build outputs
 .output
 .data
